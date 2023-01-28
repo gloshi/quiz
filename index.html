@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб приложение для проведения тестирования</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="test">
+        <div id="test__name" class="test__name">Тема теста</div>
+        <div id="question-block" class="test__question">
+            <span id="question-number" >1.</span>
+            <span id="question" >Вопрос</span>
+        </div>
+        <div id="answers" class="test__answers">
+            <div class="test__answer">Ответ 1</div>
+            <div class="test__answer">Ответ 2</div>
+            <div class="test__answer">Ответ 3</div>
+            <div class="test__answer">Ответ 4</div>
+        </div>
+        <div id="result" class="test__result">
+            <div id="result-icon" class="test__result-img"></div>
+            <div id="result-status" class="test__reslut-status"></div>
+        </div>
+        <div id="btn" class="test__button ">Следующий вопрос</div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
